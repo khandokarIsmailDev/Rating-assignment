@@ -4,7 +4,7 @@ import Rating from "./Rating";
 const ReviewForm = () => {
 
   //count rating
-  const [rating,setRating] = useState(6)
+  const [rating,setRating] = useState(1)
 
   console.log(rating)
 
