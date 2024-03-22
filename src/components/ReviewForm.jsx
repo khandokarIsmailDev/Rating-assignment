@@ -33,7 +33,7 @@ const ReviewForm = () => {
             <p
               className={`${
                 rating === 1 &&
-                "bg-white text-black hover:bg-red-500 hover:text-white"
+                "bg-white text-black hover:bg-red-600 hover:text-white"
               } hover:bg-white transition-all hover:text-black cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full `}
               onClick={() => setRating(1)}
             >
@@ -42,7 +42,7 @@ const ReviewForm = () => {
             <p
               className={`${
                 rating === 2 &&
-                "bg-white text-black hover:bg-red-500 hover:text-white"
+                "bg-white text-black hover:bg-red-600 hover:text-white"
               } hover:bg-white transition-all hover:text-black  cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full`}
               onClick={() => setRating(2)}
             >
@@ -51,7 +51,7 @@ const ReviewForm = () => {
             <p
               className={`${
                 rating === 3 &&
-                "bg-white text-black hover:bg-red-500 hover:text-white"
+                "bg-white text-black hover:bg-red-600 hover:text-white"
               } hover:bg-white transition-all hover:text-black  cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full`}
               onClick={() => setRating(3)}
             >
@@ -60,7 +60,7 @@ const ReviewForm = () => {
             <p
               className={`${
                 rating === 4 &&
-                "bg-white text-black hover:bg-red-500 hover:text-white"
+                "bg-white text-black hover:bg-red-600 hover:text-white"
               } hover:bg-white transition-all hover:text-black  cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full`}
               onClick={() => setRating(4)}
             >
@@ -69,7 +69,7 @@ const ReviewForm = () => {
             <p
               className={`${
                 rating === 5 &&
-                "bg-white text-black hover:bg-red-500 hover:text-white"
+                "bg-white text-black hover:bg-red-600 hover:text-white"
               } hover:bg-white transition-all hover:text-black  cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full`}
               onClick={() => setRating(5)}
             >
