@@ -32,8 +32,8 @@ const ReviewForm = () => {
           <div className="flex flex-wrap justify-between my-5">
             <p
               className={`${
-                rating === 1 &&
-                "bg-white text-black "
+                 rating >=1 &&
+                "bg-orange-500 text-white "
               } hover:bg-white transition-all hover:text-black cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full `}
               onClick={() => setRating(1)}
             >
@@ -41,8 +41,8 @@ const ReviewForm = () => {
             </p>
             <p
               className={`${
-                rating === 2 &&
-                "bg-white text-black "
+                rating >= 2 &&
+                "bg-orange-500 text-white "
               } hover:bg-white transition-all hover:text-black  cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full`}
               onClick={() => setRating(2)}
             >
@@ -50,8 +50,8 @@ const ReviewForm = () => {
             </p>
             <p
               className={`${
-                rating === 3 &&
-                "bg-white text-black "
+                rating >= 3 &&
+                "bg-orange-500 text-white "
               } hover:bg-white transition-all hover:text-black  cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full`}
               onClick={() => setRating(3)}
             >
@@ -59,8 +59,8 @@ const ReviewForm = () => {
             </p>
             <p
               className={`${
-                rating === 4 &&
-                "bg-white text-black "
+                rating >= 4 &&
+                "bg-orange-500 text-white "
               } hover:bg-white transition-all hover:text-black  cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full`}
               onClick={() => setRating(4)}
             >
@@ -68,8 +68,8 @@ const ReviewForm = () => {
             </p>
             <p
               className={`${
-                rating === 5 &&
-                "bg-white text-black "
+                rating >= 5 &&
+                "bg-orange-500 text-white "
               } hover:bg-white transition-all hover:text-black  cursor-pointer pt-2 font-bold bg-[#262E39] text-[#8d939c] w-10 h-10 rounded-full`}
               onClick={() => setRating(5)}
             >
